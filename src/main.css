@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+    min-height: 100vh; /* Ensures the root element takes full viewport height */
+    display: flex;
+    flex-direction: column;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Allows the parent to take available space */
+}

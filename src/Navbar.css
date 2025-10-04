@@ -1,0 +1,6 @@
+.navbar {
+    position: absolute; /* Positions the navbar relative to the viewport */
+    top: 20px; /* Adjust as needed for desired top margin */
+    right: 20px; /* Adjust as needed for desired right margin */
+    z-index: 1000; /* Ensures the navbar is above other content */
+}

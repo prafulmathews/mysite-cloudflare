@@ -1,0 +1,9 @@
+.center-text {
+    display: flex; /* Enables flexbox for centering */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    min-height: calc(
+        100vh - 60px
+    ); /* Adjusts height to account for navbar, assuming navbar height is around 40px + 20px top margin */
+    text-align: center; /* For good measure, ensures text inside is centered */
+}
