@@ -5,7 +5,7 @@ function Navbar() {
     <div className="navbar">
       <a href="https://github.com/prafulmathews">
         <img
-          src="./src/assets/github-mark-white.svg"
+          src="/github-mark-white.svg"
           alt="GitHub Logo"
           width="30"
           height="30"
